@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Demo Of Calender
+    </title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        border: none;
+
+    }
+    body{
+        background-color: white;
+        
+
+    }
+    .cont{
+        position: relative;
+        top: 130px;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+           }
+    .con{
+        position: relative;
+        border: 2px solid black;
+        font-weight: 800;
+        width: 360px;
+        height: 270px;
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        justify-content: center;
+align-items: end;
+
+    }
+
+    ul {
+            margin-bottom: 10px;
+         }
+    
+    ul li{
+        position: relative;
+         list-style:none;
+         padding: 4px;
+         font-weight: 400;
+         font-size:larger;
+margin-left: 10px;
+margin-bottom: 4px;
+
+    }
+    .col{
+    background-color: #EEEEEE;
+    margin-left: 0px !important;
+}
+    .head{
+        display: grid;
+    
+        justify-content: center;
+      align-items: end;
+        position: relative;
+        top: 45px;
+        font-size: 18px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+
+</style>
+<body>
+
+    <div class="cont">
+        <div class="head"><h1>December 2020</h1></div>
+
+      <div class="con">
+
+<ul>
+    <li class="col">Sun</li>
+    <li>&nbsp;</li>
+    <li>6</li>
+    <li>13</li>
+    <li>20</li>
+    <li>27</li>
+</ul>
+<ul>
+    <li class="col" >Mon</li>
+    <li>&nbsp;</li>
+    <li>7</li>
+    <li>14</li>
+    <li>21</li>
+    <li>28</li>
+</ul>
+<ul>
+    <li class="col" >Tue</li>
+    <li>1</li>
+    <li>8</li>
+    <li>15</li>
+    <li>22</li>
+    <li>29</li>
+</ul><ul>
+    <li class="col" >Wed</li>
+    <li>2</li>
+    <li>9</li>
+    <li>16</li>
+    <li>23</li>
+    <li>30</li>
+</ul><ul>
+    <li class="col">Thu</li>
+    <li>3</li>
+    <li>10</li>
+    <li>17</li>
+    <li>24</li>
+    <li>31</li>
+</ul><ul>
+    <li class="col">Fri</li>
+    <li>4</li>
+    <li>11</li>
+    <li>18</li>
+    <li>19</li>
+    <li>&nbsp;</li>
+</ul>
+<ul>
+    <li class="col">Sat</li>
+    <li>5</li>
+    <li>12</li>
+    <li>19</li>
+    <li>26</li>
+    <li>&nbsp;</li>
+</ul>
+
+</div>  
+    </div>
+
+    
+</body>
+</html>
